@@ -1,0 +1,66 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+@import url(imagenes.css);
+@import url(style.css);
+body{
+    background-color: rgb(126, 131, 141);
+    
+}
+
+}
+.centrar{
+    text-align: center;
+    color: cornsilk;
+}
+.centrar2{
+    text-align: center;
+    font-size: xx-large;
+}
+.cabecera{
+    color: cyan;
+    text-align: center;
+    padding: 50;
+    margin: 10p;
+}
+.slider{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+
+
+}
+.slider ul{
+    display: flex;    
+    padding: 0;
+    width: 500%;
+    animation: cambio 20s infinite alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 80%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}

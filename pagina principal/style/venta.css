@@ -1,0 +1,16 @@
+.direccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight:bold;
+        margin-left: 100px;
+        margin-right: 100px;
+    
+}
+.img{
+    width: 500px;
+    height: 300px;
+}
+.text{
+    text-align: right;
+}
